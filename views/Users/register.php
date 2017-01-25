@@ -10,7 +10,7 @@
         <label for="email">Email</label>
         <input type="email" name="email" id="" class="form-control" placeholder="e.g. mark@mail.com" required><br />
         <label for="date_of_birth">Date of birth</label> <br />
-        <input type="text" name="date_of_birth" class="form-control" placeholder="1991-07-17" required> <br />
+        <input type="text" id="datepicker" name="date_of_birth" class="form-control" placeholder="1991-07-17" required> <br />
         <label for="city">City</label>
         <input type="text" name="city" id="" class="form-control" placeholder="e.g. Zagreb" required><br />
         <label for="country">Country</label>

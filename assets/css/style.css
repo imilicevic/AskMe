@@ -291,6 +291,35 @@ table tr th{
 table thead th{
   background: #fff;
 }
+/* Datepicker */
+.ui-datepicker .ui-datepicker-header{
+  background: transparent;
+  border: none;
+}
+
+.ui-widget-content .ui-state-default{
+  0background: transparent;
+  text-align: center;
+}
+
+.ui-widget-content .ui-state-default{
+  background: transparent;
+}
+
+.ui-widget-content .ui-state-default:hover{
+  background: #337ab7;
+  color: #fff;
+}
+
+.ui-widget-content .ui-state-default.ui-state-active{
+  background: #337ab7;
+  color: #fff;
+}
+
+.ui-state-default.ui-state-highlight.ui-state-active{
+  border: 1px solid #337ab7;
+}
+
 @media screen and (min-width: 960px){
   .question-item{
     padding: 0px 20px 15px 20px;

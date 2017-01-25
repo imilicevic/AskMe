@@ -24,7 +24,7 @@
         <td><?php echo $item['username']; ?></td>
         <td><?php echo $item['email']; ?></td>
         <td><?php echo $item['city'] . ', ' . $item['country'] ?></td>
-        <td><?php echo $item['date_of_birth']; ?></td>
+        <td><?php echo Model::parse_timestamp($item['date_of_birth'], 'd.m.Y.'); ?></td>
         <td><?php echo $item['role_name']; ?></td>
         <td><?php echo $is_deactivated; ?></td>
         <td>
